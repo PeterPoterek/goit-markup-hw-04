@@ -146,11 +146,14 @@ p {
 
 /* Hero section */
 .hero-container {
-  background-color: var(--color-dark);
+  background: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+    url("/images/background-image.jpg");
+  background-size: 100% 100%, cover;
+  background-position: center;
+  background-repeat: no-repeat;
 
   display: flex;
   flex-direction: column;
-
   justify-content: center;
   align-items: center;
 
@@ -158,7 +161,10 @@ p {
 
   padding-top: 188px;
   padding-bottom: 188px;
+
+  margin: 0 auto;
 }
+
 .hero-title {
   color: var(--color-white-background);
 
