@@ -23,14 +23,13 @@ body {
   max-width: 1158px;
   margin: 0 auto;
 }
-.section {
-  padding-top: 120px;
-}
 
 .section:nth-child(even) {
   padding-bottom: 120px;
+  padding-top: 120px;
 }
 .section:last-child {
+  padding-top: 120px;
   padding-bottom: 120px;
 }
 h1 {
