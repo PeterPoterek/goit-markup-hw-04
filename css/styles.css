@@ -24,16 +24,12 @@ body {
   margin: 0 auto;
 }
 
-.section:not(:first-child) {
-  padding-bottom: 120px;
-}
-
-.section:nth-child(2) {
+.section:not(:first-child):nth-child(2n) {
   padding-top: 120px;
   padding-bottom: 120px;
 }
 
-.section:nth-child(3) {
+.section:nth-child(2n + 3) {
   padding-bottom: 120px;
 }
 
