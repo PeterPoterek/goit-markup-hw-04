@@ -352,6 +352,16 @@ menu {
   gap: 24px;
   justify-content: space-between;
 }
+
+.customers-icon-container {
+  fill: var(--color-subtle-text);
+  border: 1px solid var(--color-subtle-text);
+  border-radius: 4px;
+}
+
+.customers-icon {
+  fill: currentColor;
+}
 /* End of Customers section */
 
 /* Footer section */
