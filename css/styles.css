@@ -414,6 +414,13 @@ menu {
   display: flex;
   gap: 16px;
 }
+.footer-item-container {
+  fill: var(--color-primary);
+}
+.footer-item-container:hover,
+.footer-item-container:focus {
+  fill: var(--color-success);
+}
 /* End of Footer section */
 
 /* Filter section */
