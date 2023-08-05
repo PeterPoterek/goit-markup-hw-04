@@ -331,6 +331,13 @@ menu {
   align-items: center;
   gap: 24px;
 }
+.our-team-icon-container {
+  background-color: var(--color-primary);
+  border-radius: 20px;
+}
+.our-team-icon-container:hover {
+  background-color: var(--color-success);
+}
 /* End of Our team section */
 
 /* Customers section */
