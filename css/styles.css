@@ -231,6 +231,10 @@ menu {
   line-height: 1.5;
   letter-spacing: 0.32px;
 }
+.company-values-icon-container {
+  background-color: var(--color-light);
+  border-radius: 4px;
+}
 /* End of Company Values */
 
 /* Our work section */
