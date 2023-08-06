@@ -341,7 +341,7 @@ menu {
 }
 .our-team-icon-container:hover,
 .our-team-icon-container:focus {
-  background-color: var(--color-success);
+  background-color: var(--color-pressed);
 }
 /* End of Our team section */
 
